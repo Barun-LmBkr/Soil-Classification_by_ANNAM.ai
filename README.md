@@ -3,7 +3,7 @@
 **Organized by Annam.ai & IIT Ropar**  
 **Team Name**: *Ice 'N' Dagger*  
 **Members**: Barun Saha, Bibaswan Das  
-**Leaderboard Rank**: 70 & 47 
+**Leaderboard Rank**: 70 & 47  
 
 ---
 
@@ -72,9 +72,45 @@ This is framed as an **anomaly detection** problem since **only positive (soil) 
 
 ##  Setup Instructions
 
+Install required libraries using:
+
 ```bash
 pip install torch torchvision timm pandas scikit-learn opencv-python tensorflow
 ```
+
+---
+
+##  How to Run
+
+### 🔹 Phase 1: Soil Type Classification
+
+1. **Preprocess & Load Data**  
+   Run `preprocessing.py` to prepare data and label encoding.
+
+2. **Train Model**  
+   Open `training.ipynb` and train the Swin Transformer. The best model will be saved as `best_model.pth`.
+
+3. **Inference**  
+   Use `inference.ipynb` to generate predictions on test data.
+
+4. **Post-process**  
+   Run `postprocessing.py` to convert predictions into final submission format.
+
+---
+
+### 🔹 Phase 2: Soil vs Non-Soil Detection
+
+1. **Feature Extraction**  
+   Run `preprocessing.py` to extract features using ResNet50 and VGG16.
+
+2. **Train One-Class SVM**  
+   Open `training.ipynb` and fit the model on soil features only.
+
+3. **Inference**  
+   Use `inference.ipynb` to make predictions on test features.
+
+4. **Post-process**  
+   Run `postprocessing.py` to generate the binary classification submission file.
 
 ---
 
@@ -106,17 +142,17 @@ ANNAM.ai/
 For each phase, upload the following:
 
 ### Phase 1
-- `preprocessing.py`
-- `training.ipynb`
-- `inference.ipynb`
-- `postprocessing.py`
+- `preprocessing.py`  
+- `training.ipynb`  
+- `inference.ipynb`  
+- `postprocessing.py`  
 - `submission.csv` (optional)
 
 ### Phase 2
-- `preprocessing.py`
-- `training.ipynb`
-- `inference.ipynb`
-- `postprocessing.py`
+- `preprocessing.py`  
+- `training.ipynb`  
+- `inference.ipynb`  
+- `postprocessing.py`  
 
 ---
 
@@ -126,6 +162,8 @@ This work was completed as part of the **Soil Image Classification Challenge 202
 
 We thank the organizers for this valuable opportunity!
 
+---
+
 ## Team Ice 'N' Dagger Members:
-- Barun Saha 
+- Barun Saha  
 - Bibaswan Das
