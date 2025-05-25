@@ -36,8 +36,6 @@ Classify soil images into one of four types:
 | `training.ipynb`   | Train Swin Transformer using `timm` |
 | `inference.ipynb`  | Generate predictions using best model |
 | `postprocessing.py`| Post-processing and analysis |
-| `best_model.pth`   | Saved best model |
-| `label_encoder.pkl`| Label encoder for decoding |
 | `submission.csv`   | Final predictions |
 
 ###  Model  
