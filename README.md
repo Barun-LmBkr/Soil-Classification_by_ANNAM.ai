@@ -123,8 +123,8 @@ ANNAM.ai/
 │   ├── training.ipynb
 │   ├── inference.ipynb
 │   ├── postprocessing.py
-│   ├── best_model.pth
-│   ├── label_encoder.pkl
+│   
+│  
 │   └── submission.csv
 │
 └── CHALLENGE-2/
