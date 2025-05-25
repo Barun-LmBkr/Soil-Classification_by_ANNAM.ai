@@ -1,9 +1,9 @@
 
 # Soil Image Classification Challenge – 2025  
-**Organized by Annam.ai & IIT Ropar**  
+**Organized by Annam.ai organized by IIT Ropar**  
 **Team Name**: *Ice 'N' Dagger*  
 **Members**: Barun Saha, Bibaswan Das  
-**Leaderboard Rank**: 70 & 47  
+**Leaderboard Ranks**: 70(Challenge-1) & 47(Challenge-2)  
 
 ---
 
@@ -86,7 +86,7 @@ pip install torch torchvision timm pandas scikit-learn opencv-python tensorflow
    Run `preprocessing.py` to prepare data and label encoding.
 
 2. **Train Model**  
-   Open `training.ipynb` and train the Swin Transformer. The best model will be saved as `best_model.pth`.
+   Open `training.ipynb` and train the Swin Transformer. 
 
 3. **Inference**  
    Use `inference.ipynb` to generate predictions on test data.
@@ -156,9 +156,12 @@ For each phase, upload the following:
 
 ---
 
+### Optional
+- We have also included 'combined-codes' in the form of notebooks for both the challenges. They can be found inside the 'Challenge-1 and 2'  folders respectively and have been named as 'CHALLENGE-1_Combined_code.ipynb' and 'CHALLENGE-2_Combined_code.ipynb'. In case there is any problem following the first method , running these notebooks can be treated as a viable second option.
+  
 ##  Acknowledgements
 
-This work was completed as part of the **Soil Image Classification Challenge 2025** hosted by [Annam.ai](https://annam.ai) and [IIT Ropar](https://www.iitrpr.ac.in).  
+This work was completed as part of the **Soil Image Classification Challenge 2025** hosted by [Annam.ai](https://annam.ai) organized by [IIT Ropar](https://www.iitrpr.ac.in).  
 
 We thank the organizers for this valuable opportunity!
 
