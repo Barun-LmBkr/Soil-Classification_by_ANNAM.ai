@@ -15,9 +15,6 @@ The evaluation metric is **minimum per-class F1 Score**, emphasizing performance
 ├── training.ipynb         # Training Swin Transformer model
 ├── inference.ipynb        # Generating predictions using best saved model
 ├── postprocessing.py      # Post-processing submission or analysis
-├── encoded_train.csv      # Output from preprocessing.py
-├── label_encoder.pkl      # Fitted label encoder
-├── best_model.pth         # Best trained model (saved by training notebook)
 └── submission.csv         # Final predictions for submission
 ```
 
