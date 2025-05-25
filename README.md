@@ -123,16 +123,18 @@ ANNAM.ai/
 │   ├── training.ipynb
 │   ├── inference.ipynb
 │   ├── postprocessing.py
-│   
-│  
 │   └── submission.csv
+│  
+│   
 │
 └── CHALLENGE-2/
     ├── preprocessing.py
     ├── training.ipynb
     ├── inference.ipynb
     ├── postprocessing.py
+    ├── submission.csv
     └── decision_scores_analysis.png
+     
 ```
 
 ---
