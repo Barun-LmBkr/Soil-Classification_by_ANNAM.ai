@@ -3,7 +3,8 @@
 **Organized by Annam.ai organized by IIT Ropar**  
 **Team Name**: *Ice 'N' Dagger*  
 **Members**: Barun Saha, Bibaswan Das  
-**Leaderboard Ranks**: 70(Challenge-1) & 47(Challenge-2)  
+**Public Leaderboard Ranks**: 65(Challenge-1) & 50(Challenge-2)  
+**Private Leaderboard Ranks**: 8(Challenge-1) & 55(Challenge-2)
 
 ---
 
