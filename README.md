@@ -62,6 +62,7 @@ This is framed as an **anomaly detection** problem since **only positive (soil) 
 | `inference.ipynb`  | Test on unknown images using trained model |
 | `postprocessing.py`| Format predictions into submission file |
 | `decision_scores_analysis.png` | Decision score distribution visualization |
+| `submission.csv`   | Final predictions |
 
 ###  Model  
 - **Feature Extractors**: ResNet50 + VGG16 (ImageNet-pretrained)
@@ -128,7 +129,7 @@ ANNAM.ai/
 │
 └── CHALLENGE-2/
     ├── preprocessing.py
-    ├── training.ipynb
+    ├── training.ipynb  
     ├── inference.ipynb
     ├── postprocessing.py
     ├── submission.csv
